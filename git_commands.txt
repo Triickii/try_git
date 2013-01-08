@@ -1,0 +1,5 @@
+ls = list the folders
+
+cd = change directory
+
+git init = start using git
