@@ -30,3 +30,17 @@ git add *
 git commit -m "Commit message"
 
 -----------
+
+Setting up a local version of a Git repo from a remote version
+
+$ cd <working-dir>
+
+$ git clone https://github.com/steveperrycreative/<repo-name>
+
+$ cd <working-dir>/<repo-name>
+
+$ git remote add origin https://github.com/steveperrycreative/<repo-name>.git
+
+$ git pull origin master
+
+-----------
