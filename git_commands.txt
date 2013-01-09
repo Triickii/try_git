@@ -5,3 +5,26 @@ cd = change directory
 git init = start using git
 
 add new item
+
+
+$ git config --global color.ui true
+
+-----------
+
+checkout repository
+
+git clone /path/to/repository
+
+or
+
+git clone username@host:/path/to/repository
+
+-----------
+
+git add <filename>
+
+git add *
+
+git commit -m "Commit message"
+
+-----------
